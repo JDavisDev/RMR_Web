@@ -1,3 +1,4 @@
-/**
- * Created by Jordan Davis on 6/7/2017.
- */
+
+$(document).ready(function(){
+    $("#navBar").load("navbar.html");
+});
