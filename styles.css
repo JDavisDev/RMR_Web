@@ -31,13 +31,12 @@
 /*** HOME - INDEX ***/
 
 .jumbotron {
-    background-image: url("images/rmr_podium.jpg");
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 600px;
+    height: 150px;
     width: auto;
     /*-webkit-filter: blur(2px);*/
     /*-moz-filter: blur(2px);*/
@@ -49,6 +48,7 @@
     color: white;
     float: none;
     margin-left: 30px;
+    background-position: center;
 }
 
 .main-container h2 {
@@ -131,3 +131,51 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+/* SLIDESHOW CODE
+
+ */
+
+#container{
+    width:604px;
+    height:453px;
+    position:relative;
+}
+
+#container ul{
+    width:604px;
+    height:453px;
+    list-style:none outside none;
+    position:relative;
+    overflow:hidden;
+}
+
+#container li:first-child{
+    display:list-item;
+    position:absolute;
+}
+
+#container li{
+    position:absolute;
+    display:none;
+}
+
+#container .prevButton{
+    height:72px;
+    width:68px;
+    position:absolute;
+    background:url('images/spikeball_logo.jpg') no-repeat;
+    top:50%;
+    margin-top:-36px;
+    cursor:pointer;
+    z-index:2000;
+    background-position:left top;
+    left:0
+}
+
+#container .prevButton:hover{
+    background-position:left bottom;left:0;}
