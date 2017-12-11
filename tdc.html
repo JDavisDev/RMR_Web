@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="styles.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -19,11 +17,27 @@
     <title>Tour De Colorado</title>
 </head>
 <body>
-<div id="navBar"></div>
+<div class="navbar-container">
+    <div class="header_logo">
+        <img src="images/rmr_color_blackBG_logo.jpg">
+    </div>
+    <div class="navBar" id="navBar">
+        <a href="index.html">Home</a>
+        <!--<a href="store.html">Store</a>-->
+        <a href="tdc.html">Tour De Colorado</a>
+        <!--<a href="leagues.html">Leagues</a>-->
+        <!--<a href="pickup.html">Pick Up</a>-->
+        <!--<a href="rmrclub.html">RMR Club</a>-->
+        <!--<a href="bracket.html">Bracket</a>-->
+        <!--<a href="donate.html">Donate</a>-->
+        <a href="contact.html">Contact</a>
+        <!--<a href="sponsors.html">Sponsors</a>-->
+    </div>
+</div>
 
-<h1 class="tdc_h1" style="color: #fced5e; margin:auto">2018 Tour De Colorado</h1>
+<h1 class="tdc_h1">2018 Tour De Colorado</h1>
 
-<h4 style="color: #fced5e; margin: auto; max-width: 600px">
+<h4 class="tdc-h4">
     The Tour De Colorado is a series of tournaments through out Colorado, aimed to crown the top 8 players in the state.
     While tournaments are open to any team, only teams from Colorado can earn points.
     <br><br>
@@ -35,7 +49,7 @@
     Prizes for 2018 have yet to be determined, but will be awesome.
 </h4>
 
-<img src="tdc.jpeg">
+<!--<img src="tdc.jpeg">-->
 
 </body>
 </html>
