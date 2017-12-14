@@ -24,13 +24,15 @@
     text-decoration: none;
 }
 
+#navBar a.active-link>a{
+    border-bottom: 1px solid #FFFFFF;
+    color:#FFFFFF;
+    padding-bottom:1px;
+}
+
 .navBar a:hover {
     color: #FFFFFF;
     font-size: 24px;
-}
-
-.navBar a:active {
-
 }
 
 
@@ -61,7 +63,15 @@ footer p {
 .carousel {
     background: black;
     margin-top: 20px;
-    width:900px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display:         flex;
 }
 .carousel .item {
     min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
@@ -118,15 +128,92 @@ body {
 }
 
 .tdc_h1 {
-    margin: auto;
-    max-width:400px;
+    margin: 0 auto;
+    width: 400px;
     padding-bottom: 5%;
     color: #fced5e;
+}
+
+.tdc-h2 {
+    padding-bottom: 2%;
+    color: white;
+    margin:auto;
+    max-width: 200px;
 }
 
 .tdc-h4 {
     color: #fced5e;
     margin: auto;
-    max-width: 600px;
+    max-width: 500px;
     line-height: 1.25em;
 }
+
+/* PICK UP */
+
+.pickup-h1 {
+    margin: 0 auto;
+    width: 150px;
+    padding-bottom: 5%;
+    color: #fced5e;
+}
+
+.pickup-h2 {
+    padding-bottom: 2%;
+    color: white;
+    margin:auto;
+    max-width: 200px;
+}
+
+.pickup-h4 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 500px;
+    line-height: 1.25em;
+}
+
+/* LEAGUES */
+
+.leagues-cards-container {
+    display: block;
+    margin:auto;
+    width: 57.3%;
+}
+
+.leagues-h1 {
+    margin: 0 auto;
+    width: 150px;
+    padding-bottom: 5%;
+    color: #fced5e;
+}
+
+.leagues-card {
+    padding:25px;
+    display: inline-block;
+}
+
+.leagues-card-header {
+    color: #fced5e;
+    font-size: 32px;
+    padding:20px;
+    margin: 0 auto;
+    flex-direction: column;
+    border-width: 2px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-color: #FFF;
+    border-style: solid;
+    width:400px;
+    border-bottom-style: hidden;
+}
+
+.leagues-card-block {
+    margin: 0 auto;
+    width: 400px;
+    padding:20px;
+    color: #fced5e;
+    flex-direction: column;
+    border-width: 2px;
+    border-color: #FFF;
+    border-style: solid;
+}
+
