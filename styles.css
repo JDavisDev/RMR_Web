@@ -122,10 +122,11 @@ footer p {
     transform: translate(0%,-50%);
 }
 
-/* Tour De Colorado */
 body {
     background: black;
 }
+
+/* Tour De Colorado */
 
 .tdc_h1 {
     margin: 0 auto;
@@ -144,8 +145,22 @@ body {
 .tdc-h4 {
     color: #fced5e;
     margin: auto;
-    max-width: 500px;
+    max-width: 700px;
     line-height: 1.25em;
+}
+
+.tdc-images {
+    margin: 0 auto;
+    width: 800px;
+    height: 434.50px;
+    padding-top: 25px;
+}
+
+.tdc-stoplist-img {
+    padding-top: 10px;
+    margin:0 auto;
+    width: 800px;
+    height: 534.50px;
 }
 
 /* PICK UP */
@@ -167,7 +182,7 @@ body {
 .pickup-h4 {
     color: #fced5e;
     margin: auto;
-    max-width: 500px;
+    max-width: 700px;
     line-height: 1.25em;
 }
 
@@ -215,5 +230,37 @@ body {
     border-width: 2px;
     border-color: #FFF;
     border-style: solid;
+}
+
+/* DONATE Page */
+
+.donate-h1 {
+    margin: 0 auto;
+    width: 150px;
+    padding-bottom: 5%;
+    color: #fced5e;
+}
+
+.donate-h4 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.25em;
+}
+
+/* SPONSORS */
+
+.sponsors-h1 {
+    margin: 0 auto;
+    width: 150px;
+    padding-bottom: 5%;
+    color: #fced5e;
+}
+
+.sponsors-h4 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.25em;
 }
 
