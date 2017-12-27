@@ -264,3 +264,22 @@ body {
     line-height: 1.25em;
 }
 
+/* RMR Club */
+
+.rmrc-h1 {
+    margin: 0 auto;
+    width: 550px;
+    padding-bottom: 5%;
+    color: #fced5e;
+}
+
+.rmrc-h4 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.25em;
+}
+
+.rmrc-img {
+
+}
