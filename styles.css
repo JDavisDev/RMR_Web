@@ -73,6 +73,7 @@ footer p {
     display: -webkit-flex;
     display:         flex;
 }
+
 .carousel .item {
     min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
     height: 600px;
@@ -124,6 +125,7 @@ footer p {
 
 body {
     background: black;
+    width:100%;
 }
 
 /* Tour De Colorado */
@@ -269,7 +271,6 @@ body {
 .rmrc-h1 {
     margin: 0 auto;
     width: 550px;
-    padding-bottom: 5%;
     color: #fced5e;
 }
 
@@ -281,5 +282,21 @@ body {
 }
 
 .rmrc-img {
+    /*1024 x 929 */
+    margin: auto;
+    height: auto;
+    width: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+}
+
+/* FOOTER */
+
+.footer-container {
+
+}
+
+.footer img {
 
 }
