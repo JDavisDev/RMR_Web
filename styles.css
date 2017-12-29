@@ -1,6 +1,6 @@
 /*** NAVBAR ***/
 
-#navBar, .header_logo {
+#navBar {
     margin:1em auto;
     height:auto;
     display: block;
@@ -13,6 +13,13 @@
     justify-content: center;
     display: -webkit-flex;
     display:         flex;
+}
+
+.header_logo img {
+    height: 250px;
+    width:auto;
+    margin: 1em auto;
+    display: block;
 }
 
 .navbar-container a {
@@ -192,14 +199,20 @@ body {
 
 .leagues-cards-container {
     display: block;
-    margin:auto;
-    width: 57.3%;
+    margin:0 auto;
+    width: 31.3%;
+}
+
+.leagues-img {
+    margin: auto;
+    height: auto;
+    width: 300px;
+    display: block;
 }
 
 .leagues-h1 {
     margin: 0 auto;
     width: 150px;
-    padding-bottom: 5%;
     color: #fced5e;
 }
 
