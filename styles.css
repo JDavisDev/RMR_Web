@@ -24,8 +24,9 @@
 
 .navbar-container a {
     color: #fced5e;
-    font-size: 22px;
-    padding: 20px 20px 20px 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 36px;
+    padding: 30px 30px 30px 30px;
     display: inline;
     text-align: center;
     text-decoration: none;
@@ -39,7 +40,7 @@
 
 .navBar a:hover {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 42px;
 }
 
 
@@ -50,19 +51,23 @@ footer p {
     color: white;
 }
 
-/*** EVENTS ***/
+p {
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
-.events {
-    margin: 20px;
+h1, h2, h3, h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /*** CONTACT ***/
 
-.contact {
-    margin: 50px;
-    height: auto;
-    display: block;
+.contact-h4 {
+    margin:0 auto;
+    width: 300px;
+    font-size: 32px;
     color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /* SLIDESHOW CODE */
@@ -133,66 +138,92 @@ footer p {
 body {
     background: black;
     width:100%;
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /* Tour De Colorado */
 
 .tdc_h1 {
     margin: 0 auto;
-    width: 400px;
-    padding-bottom: 5%;
+    width: 350px;
+    font-size: 48px;
     color: #fced5e;
-}
-
-.tdc-h2 {
-    padding-bottom: 2%;
-    color: white;
-    margin:auto;
-    max-width: 200px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .tdc-h4 {
     color: #fced5e;
-    margin: auto;
-    max-width: 700px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 10px;
+    display: block;
     line-height: 1.25em;
 }
 
-.tdc-images {
-    margin: 0 auto;
-    width: 800px;
-    height: 434.50px;
-    padding-top: 25px;
-}
+/*.tdc-images {*/
+    /*margin: 0 auto;*/
+    /*width: 800px;*/
+    /*height: 434.50px;*/
+    /*padding-top: 5px;*/
+/*}*/
 
 .tdc-stoplist-img {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin:0 auto;
     width: 800px;
-    height: 534.50px;
+    height: auto;
+    display: block;
+}
+
+.tdc_sign_up_sheet iframe {
+    margin-top: 100px;
+    margin: auto;
+    width: 70%;
+    height: 700px;
+    display: block;
 }
 
 /* PICK UP */
 
 .pickup-h1 {
     margin: 0 auto;
-    width: 150px;
+    width: 115px;
     padding-bottom: 5%;
     color: #fced5e;
+    font-size: 48px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 
 .pickup-h2 {
     padding-bottom: 2%;
     color: white;
     margin:auto;
-    max-width: 200px;
+    max-width: 150px;
+    font-size: 36px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 
 .pickup-h4 {
     color: #fced5e;
     margin: auto;
-    max-width: 700px;
+    max-width: 600px;
+    font-size: 28px;
     line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.pickup-badge-img {
+    height: auto;
+    width: 240px;
+    display: block;
+    margin:0 auto;
 }
 
 /* LEAGUES */
@@ -200,19 +231,20 @@ body {
 .leagues-cards-container {
     display: block;
     margin:0 auto;
-    width: 31.3%;
+    width: 450px;
 }
 
 .leagues-img {
     margin: auto;
     height: auto;
-    width: 300px;
+    width: 325px;
     display: block;
 }
 
 .leagues-h1 {
     margin: 0 auto;
-    width: 150px;
+    width: 125px;
+    font-size: 48px;
     color: #fced5e;
 }
 
@@ -223,7 +255,7 @@ body {
 
 .leagues-card-header {
     color: #fced5e;
-    font-size: 32px;
+    font-size: 36px;
     padding:20px;
     margin: 0 auto;
     flex-direction: column;
@@ -244,6 +276,7 @@ body {
     flex-direction: column;
     border-width: 2px;
     border-color: #FFF;
+    font-size: 28px;
     border-style: solid;
 }
 
@@ -251,15 +284,17 @@ body {
 
 .donate-h1 {
     margin: 0 auto;
-    width: 150px;
+    width: 115px;
     padding-bottom: 5%;
+    font-size: 48px;
     color: #fced5e;
 }
 
 .donate-h4 {
     color: #fced5e;
     margin: auto;
-    max-width: 700px;
+    font-size: 28px;
+    max-width: 600px;
     line-height: 1.25em;
 }
 
@@ -268,6 +303,7 @@ body {
 .sponsors-h1 {
     margin: 0 auto;
     width: 150px;
+    font-size: 48px;
     padding-bottom: 5%;
     color: #fced5e;
 }
@@ -276,6 +312,7 @@ body {
     color: #fced5e;
     margin: auto;
     max-width: 700px;
+    font-size: 28px;
     line-height: 1.25em;
 }
 
@@ -283,22 +320,26 @@ body {
 
 .rmrc-h1 {
     margin: 0 auto;
-    width: 550px;
+    width: 450px;
+    font-size: 48px;
     color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .rmrc-h4 {
     color: #fced5e;
     margin: auto;
-    max-width: 700px;
+    font-size: 28px;
+    max-width: 600px;
     line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .rmrc-img {
     /*1024 x 929 */
     margin: auto;
     height: auto;
-    width: 300px;
+    width: 400px;
     padding-bottom: 50px;
     padding-top: 50px;
     display: block;
