@@ -345,6 +345,15 @@ body {
     display: block;
 }
 
+/* FREE AGENTS */
+.freeagents-h1 {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 48px;
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 /* FOOTER */
 
 .footer-container {
