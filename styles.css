@@ -3,10 +3,11 @@
 #navBar {
     margin:1em auto;
     height:auto;
+    width:auto;
     display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
@@ -18,18 +19,24 @@
 .header_logo img {
     height: 250px;
     width:auto;
-    margin: 1em auto;
+    margin: auto;
     display: block;
 }
 
 .navbar-container a {
     color: #fced5e;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 36px;
-    padding: 30px 30px 30px 30px;
+    font-size: 32px;
+    padding: 25px 25px 25px 25px;
     display: inline;
     text-align: center;
     text-decoration: none;
+}
+
+.navbar-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width:auto;
 }
 
 #navBar a.active-link>a{
@@ -75,9 +82,9 @@ h1, h2, h3, h4 {
 .carousel {
     background: black;
     margin-top: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
@@ -97,9 +104,9 @@ h1, h2, h3, h4 {
 }
 .carousel-container {
     margin: 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
@@ -137,7 +144,6 @@ h1, h2, h3, h4 {
 
 body {
     background: black;
-    width:100%;
     font-size: 24px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -146,7 +152,7 @@ body {
 
 .tdc_h1 {
     margin: 0 auto;
-    width: 350px;
+    width: 330px;
     font-size: 48px;
     color: #fced5e;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -180,7 +186,6 @@ body {
 }
 
 .tdc_sign_up_sheet iframe {
-    margin-top: 100px;
     margin: auto;
     width: 70%;
     height: 700px;
