@@ -67,6 +67,12 @@ h1, h2, h3, h4 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.footer-sponsors-savage-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+}
+
 /*** CONTACT ***/
 
 .contact-h4 {
@@ -158,12 +164,23 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.tdc-h3 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 400px;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1.25em;
+}
+
 .tdc-h4 {
     color: #fced5e;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 28px;
     margin: 0 auto;
-    max-width: 800px;
+    width: 800px;
     padding-bottom: 10px;
     display: block;
     line-height: 1.25em;
@@ -177,7 +194,7 @@ body {
 /*}*/
 
 .tdc-stoplist-img {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     margin:0 auto;
     width: 800px;
@@ -330,6 +347,15 @@ body {
     line-height: 1.25em;
 }
 
+.sponsors-savage-img {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    display: block;
+}
+
 /* RMR Club */
 
 .rmrc-h1 {
@@ -370,10 +396,3 @@ body {
 
 /* FOOTER */
 
-.footer-container {
-
-}
-
-.footer img {
-
-}
