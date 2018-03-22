@@ -277,7 +277,15 @@ body {
 .leagues-cards-container {
     display: block;
     margin:0 auto;
-    width: 450px;
+    width: 800px;
+}
+
+.card-text {
+    margin: auto;
+    display: block;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 24px;
 }
 
 .leagues-img {
@@ -310,19 +318,19 @@ body {
     padding-left: 25px;
     border-color: #FFF;
     border-style: solid;
-    width:400px;
+    width:800px;
     border-bottom-style: hidden;
 }
 
 .leagues-card-block {
     margin: 0 auto;
-    width: 400px;
+    width: 800px;
     padding:20px;
     color: #fced5e;
     flex-direction: column;
     border-width: 2px;
     border-color: #FFF;
-    font-size: 28px;
+    font-size: 32px;
     border-style: solid;
 }
 
