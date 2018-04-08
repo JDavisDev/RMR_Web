@@ -69,13 +69,6 @@ h1, h2, h3, h4 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.footer-sponsors-savage-img {
-    height: 25%;
-    width: 25%;
-    padding: 5px;
-    margin:0 auto;
-    display: block;
-}
 
 /*** CONTACT ***/
 
@@ -387,6 +380,15 @@ body {
     display: block;
 }
 
+.sponsors-nlcc-img {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 0;
+    display: block;
+}
+
 /* RMR Club */
 
 .rmrc-h1 {
@@ -427,3 +429,22 @@ body {
 
 /* FOOTER */
 
+.footer-sponsor-img-holder {
+    text-align: center;
+}
+
+.footer-sponsors-savage-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+    margin:0 auto;
+    display: inline-block;
+}
+
+.footer_sponsors-nlcc-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+    margin:0 auto;
+    display: inline-block;
+}
