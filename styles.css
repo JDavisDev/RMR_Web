@@ -302,10 +302,18 @@ body {
 
 .spring-rmrl-sheet iframe {
     margin: auto;
-    width: 100%;
-    height: 900px;
-    zoom: 1.25;
-    display: block;
+    width: 90%;
+    height: 5000px;
+    zoom: .2;
+    display: flex;
+}
+
+.spring-2018-rmrl-bracket iframe {
+    margin: auto;
+    width: 90%;
+    height: 5000px;
+    zoom: .2;
+    display: flex;
 }
 
 .leagues-card-header {
