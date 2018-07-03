@@ -172,7 +172,29 @@ body {
     line-height: 1.25em;
 }
 
+.tdc-livebracket-h3 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 450px;
+    padding-bottom: 20px;
+    display: block;
+    line-height: 1.25em;
+}
+
 .tdc-h4 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1.25em;
+}
+
+.tdc-points-h4 {
     color: #fced5e;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 28px;
@@ -397,6 +419,15 @@ body {
     display: block;
 }
 
+.sponsors-pruvit-img {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 0;
+    display: block;
+}
+
 /* RMR Club */
 
 .rmrc-h1 {
@@ -450,6 +481,14 @@ body {
 }
 
 .footer_sponsors-nlcc-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+    margin:0 auto;
+    display: inline-block;
+}
+
+.footer-sponsors-pruvit-img {
     height: 25%;
     width: 25%;
     padding: 5px;
