@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117087232-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-117087232-1');
@@ -15,7 +19,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1280">
     <meta name="description" content="The home of the Rocky Mountain Roundnet Club">
-    <meta name="Keywords" content="spikeball, rocky mountain, roundnet, RMR, leagues, sports, denver, fort collins, tournament, tour de colorado, colorado, spike"/>
+    <meta name="Keywords"
+          content="spikeball, rocky mountain, roundnet, RMR, leagues, sports, denver, fort collins, tournament, tour de colorado, colorado, spike"/>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -55,13 +60,9 @@
 </div>
 
 <!--announcements-->
-<h3 class="tdc-h3">Tour Stop #5 registration is live! <a href="https://spikeballroundnet.com/e/rmsg18">Register
-    here.</a>
+<h3 class="tdc-h3">
 </h3>
 <br>
-<h3 class="tdc-livebracket-h3">View the bracket for the FoCo Showdown.
-    <a href="https://rmr.challonge.com/focoshowdownadv2018">Advanced</a>
-</h3>
 
 <div class="carousel-container">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -80,6 +81,14 @@
             <li data-target="#myCarousel" data-slide-to="10"></li>
             <li data-target="#myCarousel" data-slide-to="11"></li>
             <li data-target="#myCarousel" data-slide-to="12"></li>
+            <li data-target="#myCarousel" data-slide-to="13"></li>
+            <li data-target="#myCarousel" data-slide-to="14"></li>
+            <li data-target="#myCarousel" data-slide-to="15"></li>
+            <li data-target="#myCarousel" data-slide-to="16"></li>
+            <li data-target="#myCarousel" data-slide-to="17"></li>
+            <li data-target="#myCarousel" data-slide-to="18"></li>
+            <li data-target="#myCarousel" data-slide-to="19"></li>
+            <li data-target="#myCarousel" data-slide-to="20"></li>
         </ol>
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
@@ -87,40 +96,59 @@
                 <img src="images/boulder_group_2018.jpg" alt="Boulder Group 2018">
             </div>
             <div class="item">
-                <img src="images/boulder_advanced_podium_2018.jpg" alt="Boulder Advanced Podium 2018">
+                <img src="images/podium/boulder_advanced_podium_2018.jpg" alt="Boulder Advanced Podium 2018">
             </div>
             <div class="item">
                 <img src="images/rmr_kane_serve.jpg" alt="Kane Serving - International Spikeball Day">
             </div>
             <div class="item">
-                <img src="images/rmr_podium.jpg" alt="RMR Podium">
+                <img src="images/podium/rmr_podium.jpg" alt="RMR Podium">
             </div>
             <div class="item">
                 <img src="images/seth_capitol_spikeball.jpg" alt="Seth Capitol Spikeball">
             </div>
             <div class="item">
-                <img src="images/boulder_podium_2017.jpg" alt="Boulder Podium 2017">
+                <img src="images/podium/boulder_podium_2017.jpg" alt="Boulder Podium 2017">
             </div>
             <div class="item">
-                <img src="images/denver_regionals_advanced_podium_2017.jpg" alt="Denver Advanced Podium 2017">
+                <img src="images/podium/denver_regionals_advanced_podium_2017.jpg" alt="Denver Advanced Podium 2017">
             </div>
             <div class="item">
-                <img src="images/denver_regionals_intermediate_podium_2017.jpg" alt="Denver Intermediate Podium 2017">
+                <img src="images/podium/denver_regionals_intermediate_podium_2017.jpg"
+                     alt="Denver Intermediate Podium 2017">
             </div>
             <div class="item">
                 <img src="images/Altitude_HB_2018.jpg" alt="Altitude at Huntington Beach 2018">
             </div>
             <div class="item">
-                <img src="images/Sponsor_Savage.png" alt="Savage Ultimate">
+                <img src="images/sponsor/Sponsor_Savage.png" alt="Savage Ultimate">
             </div>
             <div class="item">
                 <img src="images/tdc_stop_list.png" alt="2018 TDC Stops">
             </div>
             <div class="item">
-                <img src="images/tdc_stop2_2018.png" alt="TDC Stop Two 2018">
+                <img src="images/" alt="">
             </div>
             <div class="item">
                 <img src="images/tdc_standings_3_2018.png" alt="TDC Standings 2018">
+            </div>
+            <div class="item">
+                <img src="images/tdc_standings_3_2018.png" alt="TDC Standings 2018">
+            </div>
+            <div class="item">
+                <img src="images/tdc_standings_3_2018.png" alt="TDC Standings 2018">
+            </div>
+            <div class="item">
+                <img src="images/tdc_standings_3_2018.png" alt="TDC Standings 2018">
+            </div>
+            <div class="item">
+                <img src="images/tdc_standings_3_2018.png" alt="TDC Standings 2018">
+            </div>
+            <div class="item">
+                <img src="images/sponsor/Sponsor_NLCC.png" alt="TDC Standings 2018">
+            </div>
+            <div class="item">
+                <img src="images/sponsor/Sponsor_Pruvit_Silver.png" alt="TDC Standings 2018">
             </div>
         </div>
         <!-- Carousel controls -->
@@ -145,11 +173,15 @@
 </h3>
 
 <footer>
-<p>Sponsors</p>
+    <p>Sponsors</p>
     <div class="footer-sponsor-img-holder">
-        <img class="footer-sponsors-savage-img" src="images/Sponsor_Savage.png">
-        <img class="footer_sponsors-nlcc-img" src="images/Sponsor_NLCC.png">
-        <img class="footer-sponsors-pruvit-img" src="images/Sponsor_Pruvit_Silver.png">
+        <a href="https://savageultimate.com/" target="_blank"><img class="footer-sponsors-savage-img"
+                                                                   src="images/sponsor/Sponsor_Savage.png"></a>
+        <a href="https://www.nlcannabis.com/locations/baker-denver-area/" target="_blank"><img
+                class="footer_sponsors-nlcc-img"
+                src="images/sponsor/Sponsor_NLCC.png"></a>
+        <a href="https://pruvitnow.com/" target="_blank"><img class="footer-sponsors-pruvit-img"
+                                                              src="images/sponsor/Sponsor_Pruvit_Silver.png"></a>
     </div>
 </footer>
 </body>
