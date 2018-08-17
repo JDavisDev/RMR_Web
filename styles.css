@@ -473,6 +473,26 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.hubs-h2 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 600px;
+    width: 100px;
+    font-size: 42px;
+    line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.hubs-h4 {
+    color: #fff;
+    margin: auto;
+    font-size: 28px;
+    width: 350px;
+    max-width: 600px;
+    line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 /* FOOTER */
 
 .footer-sponsor-img-holder {
