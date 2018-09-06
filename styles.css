@@ -47,7 +47,6 @@
 
 .navBar a:hover {
     color: #FFFFFF;
-    font-size: 42px;
 }
 
 
@@ -219,7 +218,7 @@ body {
     font-size: 28px;
     margin: 0 auto;
     width: 220px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     display: block;
     line-height: 1.25em;
 }
@@ -396,7 +395,7 @@ body {
     margin: 0 auto;
     width: 150px;
     font-size: 48px;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     color: #fced5e;
 }
 
