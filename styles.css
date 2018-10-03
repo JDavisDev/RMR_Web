@@ -179,6 +179,14 @@ body {
     line-height: 1.25em;
 }
 
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
 .tdc-livebracket-h3 {
     color: #fced5e;
     font-family: 'Yanone Kaffeesatz', sans-serif;
