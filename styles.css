@@ -1,70 +1,531 @@
-.navBar {
-    background-color: black;
-    overflow: hidden;
+/*** NAVBAR ***/
+
+#navBar {
+    margin:1em auto;
+    height:auto;
+    width:auto;
+    display: block;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display:         flex;
 }
 
-.navBar a {
-    float: right;
-    color: white;
-    size: 18px;
-    padding: 10px 10px;
+.header_logo img {
+    height: 250px;
+    width:auto;
+    margin: auto;
     display: block;
+}
+
+.navbar-container a {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 32px;
+    padding: 25px 25px 25px 25px;
+    display: inline;
     text-align: center;
     text-decoration: none;
 }
 
-.navBar a:hover {
-    background-color: rgba(206, 206, 206, 0.51);
-    color: #000;
-}
-
-.navBar a.active {
-    background-color: #ffffff;
-}
-
-
-/*** INDEX ***/
-
-.jumbotron {
-    background-image: url(images/rmr_podium.jpg);
-    background-color: #17234E;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    height: 608px;
-}
-
-.jumbotron h1 {
-    color: white;
-    float: none;
-    margin-left: 30px;
-}
-
-.main-container h2 {
-    align-content: center;
+.navbar-container {
     margin-left: 20px;
+    margin-right: 20px;
+    width:auto;
 }
+
+#navBar a.active-link>a{
+    border-bottom: 1px solid #FFFFFF;
+    color:#FFFFFF;
+    padding-bottom:1px;
+}
+
+.navBar a:hover {
+    color: #FFFFFF;
+}
+
+
+/*** HOME - INDEX ***/
 
 footer p {
     background-color: black;
     color: white;
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-/*** EVENTS ***/
-
-.events {
-    margin: 20px;
+p {
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
+h1, h2, h3, h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 
 /*** CONTACT ***/
 
-.contact {
-    margin: 20px;
+.contact-h4 {
+    margin:0 auto;
+    width: 300px;
+    font-size: 32px;
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-/*** MEDIA ***/
+/* SLIDESHOW CODE */
 
-.photoSlideshow {
+.carousel {
+    background: black;
+    margin-top: 20px;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display:         flex;
+}
+
+.carousel .item {
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    height: 600px;
+    width: 900px;
+    margin:auto;
+    object-fit: cover;
+}
+.carousel .item img {
+    margin: 0 auto; /* Align slide image horizontally center */
+    object-fit: cover;
+}
+
+.carousel .item .active img {
+    height: 50%;
+    width: 50%;
+}
+
+.carousel-container {
+    margin: 20px;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    display: -webkit-flex;
+    display:         flex;
+}
+
+#w3-display-container  {
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin:auto;
+}
+
+.ssimage {
+    display: block;
+    width:100%;
+    height: 660px;
+}
+
+.w3-display-left {
     position: relative;
-    overflow: hidden;
+    top: 90%;
+    left:0%;
+    transform: translate(0%,-50%);
+}
+
+.w3-display-right {
+    position: relative;
+    top: 90%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}
+
+body {
+    background: black;
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Tour De Colorado */
+
+.tdc_h1 {
+    margin: 0 auto;
+    width: 330px;
+    font-size: 48px;
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.tdc-h3 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 270px;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1.25em;
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.tdc-livebracket-h3 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 450px;
+    padding-bottom: 20px;
+    display: block;
+    line-height: 1.25em;
+}
+
+.tdc-h4 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1.25em;
+}
+
+.tdc-points-h4 {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 1.25em;
+}
+
+.tdc-h3-youtube {
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 220px;
+    padding-bottom: 20px;
+    display: block;
+    line-height: 1.25em;
+}
+
+/*.tdc-images {*/
+    /*margin: 0 auto;*/
+    /*width: 800px;*/
+    /*height: 434.50px;*/
+    /*padding-top: 5px;*/
+/*}*/
+
+.tdc-stoplist-img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin:0 auto;
+    width: 800px;
+    height: auto;
+    display: block;
+}
+
+.tdc_sign_up_sheet iframe {
+    margin: auto;
+    width: 70%;
+    height: 700px;
+    display: block;
+}
+
+/* PICK UP */
+
+.pickup-h1 {
+    margin: 0 auto;
+    width: 115px;
+    padding-bottom: 5%;
+    color: #fced5e;
+    font-size: 48px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.pickup-h2-springsummer2018 {
+    padding-bottom: 2%;
+    color: white;
+    margin:auto;
+    max-width: 252px;
+    font-size: 36px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.pickup-h2 {
+    padding-bottom: 2%;
+    color: white;
+    margin:auto;
+    max-width: 150px;
+    font-size: 36px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.pickup-h4 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 600px;
+    font-size: 28px;
+    line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.pickup-badge-img {
+    height: auto;
+    width: 240px;
+    display: block;
+    margin:0 auto;
+}
+
+/* LEAGUES */
+
+.leagues-cards-container {
+    display: block;
+    margin:0 auto;
+    width: 800px;
+}
+
+.card-text {
+    margin: auto;
+    display: block;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 24px;
+}
+
+.leagues-img {
+    margin: auto;
+    height: auto;
+    width: 325px;
+    display: block;
+}
+
+.leagues-h1 {
+    margin: 0 auto;
+    width: 125px;
+    font-size: 48px;
+    color: #fced5e;
+}
+
+.leagues-card {
+    padding:25px;
+    display: inline-block;
+}
+
+.spring-rmrl-sheet iframe {
+    margin: auto;
+    width: 90%;
+    height: 5000px;
+    zoom: .2;
+    display: flex;
+}
+
+.spring-2018-rmrl-bracket iframe {
+    margin: auto;
+    width: 90%;
+    height: 5000px;
+    zoom: .2;
+    display: flex;
+}
+
+.leagues-card-header {
+    color: #fced5e;
+    font-size: 36px;
+    padding:20px;
+    margin: 0 auto;
+    flex-direction: column;
+    border-width: 2px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-color: #FFF;
+    border-style: solid;
+    width:800px;
+    border-bottom-style: hidden;
+}
+
+.leagues-card-block {
+    margin: 0 auto;
+    width: 800px;
+    padding:20px;
+    color: #fced5e;
+    flex-direction: column;
+    border-width: 2px;
+    border-color: #FFF;
+    font-size: 32px;
+    border-style: solid;
+}
+
+/* DONATE Page */
+
+.donate-h1 {
+    margin: 0 auto;
+    width: 115px;
+    padding-bottom: 5%;
+    font-size: 48px;
+    color: #fced5e;
+}
+
+.donate-h4 {
+    color: #fced5e;
+    margin: auto;
+    font-size: 28px;
+    max-width: 600px;
+    line-height: 1.25em;
+}
+
+/* SPONSORS */
+
+.sponsors-h1 {
+    margin: 0 auto;
+    width: 150px;
+    font-size: 48px;
+    padding-bottom: 3%;
+    color: #fced5e;
+}
+
+.sponsors-h4 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 800px;
+    font-size: 28px;
+    line-height: 1.25em;
+}
+
+.sponsors-savage-img {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    display: block;
+}
+
+.sponsors-nlcc-img {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 0;
+    display: block;
+}
+
+.sponsors-pruvit-img {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 0;
+    display: block;
+}
+
+/* RMR Club */
+
+.rmrc-h1 {
+    margin: 0 auto;
+    width: 450px;
+    font-size: 48px;
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.rmrc-h4 {
+    color: #fced5e;
+    margin: auto;
+    font-size: 28px;
+    max-width: 600px;
+    line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.rmrc-img {
+    /*1024 x 929 */
+    margin: auto;
+    height: auto;
+    width: 400px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+}
+
+/* FREE AGENTS */
+.freeagents-h1 {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 48px;
+    color: #fced5e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.hubs-h2 {
+    color: #fced5e;
+    margin: auto;
+    max-width: 600px;
+    width: 100px;
+    font-size: 42px;
+    line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.hubs-h4 {
+    color: #fff;
+    margin: auto;
+    font-size: 28px;
+    width: 350px;
+    max-width: 600px;
+    line-height: 1.25em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* FOOTER */
+
+.footer-sponsor-img-holder {
+    text-align: center;
+}
+
+.footer-sponsors-savage-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+    margin:0 auto;
+    display: inline-block;
+}
+
+.footer_sponsors-nlcc-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+    margin:0 auto;
+    display: inline-block;
+}
+
+.footer-sponsors-pruvit-img {
+    height: 25%;
+    width: 25%;
+    padding: 5px;
+    margin:0 auto;
+    display: inline-block;
 }
